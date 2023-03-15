@@ -4,8 +4,32 @@
     align-items: center;
     flex-direction: row;
 
-    padding: 0 1.5rem;
+    padding: 0 3.5rem;
     width: 100%;
     height: 3.5rem;
-    background: #222222;
+
+
+    .logo {
+        border-radius: 50%;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-weight: 400;
+
+        .linkContainer {
+            background-color: inherit;
+            padding: 0.3rem 1.2rem;
+            border-radius: 0.5rem;
+            transition: all .2s ease-in-out;
+        }
+
+        .linkContainer:hover {
+            background-color: #ffffff20;
+            padding: 0.3rem 1.2rem;
+            border-radius: 0.5rem;
+        }
+    }
 }
