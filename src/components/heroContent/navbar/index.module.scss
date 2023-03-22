@@ -42,12 +42,18 @@
             }
         }
 
-        .item {}
+        .item {
+            font-family: "Sohne", sans-serif;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
 
         .menu {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-item: center;
             flex-direction: row;
             width: 50%;
             height: 100%;

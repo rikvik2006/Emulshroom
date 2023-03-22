@@ -1,7 +1,7 @@
 import { FC } from "react";
 import style from "./index.module.scss";
 
-type Props = {}
+type Props = {};
 
 const NavbarContainer: FC<Props> = () => {
     return (
