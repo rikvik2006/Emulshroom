@@ -21,7 +21,7 @@ const HomePage: NextPage<Props> = () => {
                         <img src="/img/heroimage.jpg" alt="heroimage" />
                         <h2>La natura divide noi uniamo</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque exercitationem fugiat eaque id assumenda blanditiis sit est! Vitae eius deleniti amet debitis placeat rerum, facilis quis. Illo earum deserunt voluptatem?
+                            At Emulshroom, we have taken the ordinary mushroom and turned it into a miraculous ingredient for the food and cosmetic industry. Our emulsifiers are not only sustainable, but they are also game-changers for any product they are used in. Join us in making an impact on the environment while simultaneously creating stunning products.
                         </p>
                     </div>
                 </div>

@@ -1,0 +1,73 @@
+// Create a fiexed navbar with a trasparent background color when is not scrolled and a black background color when is scrolled
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 5rem;
+    padding: 0 2rem;
+
+    &#scrolled {
+        background-color: black;
+    }
+
+    .leftPart {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 55%;
+        height: 100%;
+
+        .logoContainer {
+            width: 9rem;
+            height: 100%;
+            margin-right: 5rem;
+            display: flex;
+            align-items: center;
+
+            img {
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .item {}
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            width: 50%;
+            height: 100%;
+
+            .menuItem {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                font-size: 1.5rem;
+                color: white;
+                text-decoration: none;
+                transition: color 0.5s ease-in-out;
+
+                &:hover {
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+}
