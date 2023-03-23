@@ -7,7 +7,7 @@
     right: 0;
     z-index: 100;
     background-color: transparent;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 300ms ease-in-out;
 
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     height: 5rem;
     padding: 0 2rem;
 
-    &#scrolled {
+    &.scrolled {
         background-color: black;
     }
 
