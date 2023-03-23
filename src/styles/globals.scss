@@ -111,3 +111,31 @@ a {
   font-weight: 400;
   font-style: italic;
 }
+
+@font-face {
+  font-family: "Sohne";
+  src: url('/fonts/Sohne-Bold.otf') format('opentype'),
+    url('/fonts/Sohne-Bold.otf') format('otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Sohne";
+  src: url('/fonts/Sohne-BoldCoursive.otf') format('opentype'),
+    url('/fonts/Sohne-BoldCoursive.otf') format('otf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Signifier";
+  src: url("/fonts/Signifier-Light.otf") format("opentype"),
+    url("/fonts/Signifier-Light.otf") format("otf");
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Sohne", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
