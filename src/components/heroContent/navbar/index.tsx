@@ -32,7 +32,12 @@ const NavbarContainer: FC<Props> = () => {
                 <div className={style.item}>About us</div>
                 <div className={style.item}>Company</div>
             </div>
-            <div className={style.rightPart}></div>
+            <div className={style.rightPart}>
+                {/* <div className={style.lenguageSwitch}>
+                    <div className={style.item}>EN</div>
+                    <div className={style.item}>IT</div>
+                </div> */}
+            </div>
         </div>
     )
 }

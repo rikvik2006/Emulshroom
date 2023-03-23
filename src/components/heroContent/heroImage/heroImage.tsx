@@ -17,7 +17,7 @@ const HeroImage: FC<Props> = () => {
                     Introducing the new mushroom ECO emulsifiers.
                 </h1>
                 <div className={style.buttonsContainer}>
-                    <div className={style.button}>Learn more</div>
+                    <div className={style.button}>Learn about Emulshroom</div>
                     <a href="#" className={style.link}>View our research</a>
                 </div>
             </div>
