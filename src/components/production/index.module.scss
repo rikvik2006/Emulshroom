@@ -1,0 +1,15 @@
+.productionContainer {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+    // margin: 2rem;
+
+    .title {
+        font-size: 2.5rem;
+        font-family: "Signifier", sans-serif;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
