@@ -110,40 +110,60 @@ a {
 
 @font-face {
   font-family: "Sohne";
-  src: url('/fonts/Sohne-Regular.otf') format('opentype'),
-    url('/fonts/Sohne-RegularCoursive.otf') format('otf');
+  src:
+    url('/fonts/otf/Sohne-Regular.otf') format('opentype'),
+    // url('/fonts/Sohne-RegularCoursive.otf') format('otf');
+    url('/fonts/woff2/Sohne-Regular.woff2') format('woff2');
+
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Sohne";
-  src: url('/fonts/Sohne-RegularCoursive.otf') format('opentype'),
-    url('/fonts/Sohne-RegularCoursive.otf') format('otf');
+  src: url('/fonts/otf/Sohne-RegularCoursive.otf') format('opentype'),
+    // url('/fonts/otf/Sohne-RegularCoursive.otf') format('otf');
+    url('/fonts/woff2/Sohne-RegularCoursive.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Sohne";
-  src: url('/fonts/Sohne-Bold.otf') format('opentype'),
-    url('/fonts/Sohne-Bold.otf') format('otf');
+  src:
+    url('/fonts/otf/Sohne-Bold.otf') format('opentype'),
+    // url('/fonts/otf/Sohne-Bold.otf') format('otf');
+    url('/fonts/woff2/Sohne-Bold.woff2') format('woff2');
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Sohne";
-  src: url('/fonts/Sohne-BoldCoursive.otf') format('opentype'),
-    url('/fonts/Sohne-BoldCoursive.otf') format('otf');
+  src:
+    url('/fonts/otf/Sohne-BoldCoursive.otf') format('opentype'),
+    // url('/fonts/otf/Sohne-BoldCoursive.otf') format('otf');
+    url('/fonts/woff2/Sohne-BoldCursive.woff2') format('woff2');
   font-weight: 700;
   font-style: italic;
+}
+
+@font-face {
+  font-family: "Sohne";
+  src:
+    url('/fonts/otf/Sohne-Light.otf') format('opentype'),
+    // url('/fonts/otf/Sohne-Light.otf') format('otf');
+    url('/fonts/woff2/Sohne-Light.woff2') format('woff2');
+  font-weight: 300;
 }
 
 @font-face {
   font-family: "Signifier";
-  src: url("/fonts/Signifier-Light.otf") format("opentype"),
-    url("/fonts/Signifier-Light.otf") format("otf");
+  src:
+    url("/fonts/otf/Signifier-Light.otf") format("opentype"),
+    // url("/fonts/otf/Signifier-Light.otf") format("otf");
+    url("/fonts/woff2/Signifier-Light.woff2") format("woff2");
   font-weight: 300;
 }
+
 
 h3 {
   font-family: "Sohne", sans-serif;

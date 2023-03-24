@@ -4,6 +4,7 @@ import HeroImage from "@components/components/heroContent/heroImage/heroImage"
 import MainContent from "@components/components/mainContent"
 import ProductionContainer from "@components/components/production"
 import ProductsContainer from "@components/components/products"
+import Footer from "@components/components/footer"
 
 type Props = {
 
@@ -19,6 +20,8 @@ const HomePageTest: NextPage<Props> = () => {
                 <ProductionContainer />
                 <hr />
                 <ProductsContainer />
+                <hr />
+                <Footer />
             </div>
         </>
     )
