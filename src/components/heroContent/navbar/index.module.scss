@@ -39,6 +39,7 @@
                 object-fit: contain;
                 width: 100%;
                 height: 100%;
+                cursor: pointer;
             }
         }
 
@@ -46,6 +47,7 @@
             font-family: "Sohne", sans-serif;
             font-size: 1.125rem;
             line-height: 1.125rem;
+            cursor: pointer;
 
             &:hover {
                 text-decoration: underline;
