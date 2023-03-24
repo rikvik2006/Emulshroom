@@ -25,17 +25,7 @@ const products = [
         name: "Portion 25kg",
         image: "/img/emulsionat10k.png",
         link: "#"
-    },
-    {
-        name: "Portion 500g",
-        image: "/img/emulsionant.png",
-        link: "#"
-    },
-    {
-        name: "Portion 25kg",
-        image: "/img/emulsionat10k.png",
-        link: "#"
-    },
+    }
 ]
 
 

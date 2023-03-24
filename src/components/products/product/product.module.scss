@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 1rem;
 
     .imageContainer {
         // Created a place holder for the image
-        width: 15rem;
-        height: 15rem;
+        width: calc(100vw - 1rem * 4) / 4;
+        height: 20rem;
         background-color: white;
         border-radius: 5px;
         overflow: hidden;
@@ -23,8 +24,8 @@
     }
 
     .productName {
-        font-size: 1.5rem;
-        font-family: "Signifier", sans-serif;
-        margin: 1rem 0;
+        font-size: 1.125rem;
+        font-family: "Sohne", sans-serif;
+        ;
     }
 }

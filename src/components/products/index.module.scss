@@ -1,6 +1,8 @@
 .productsContainer {
     display: flex;
     flex-direction: column;
+    gap: 4rem;
+
 
     .header {
         display: grid;
