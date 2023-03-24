@@ -1,0 +1,30 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .imageContainer {
+        // Created a place holder for the image
+        width: 15rem;
+        height: 15rem;
+        background-color: white;
+        border-radius: 5px;
+        overflow: hidden;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 2rem;
+        }
+    }
+
+    .productName {
+        font-size: 1.5rem;
+        font-family: "Signifier", sans-serif;
+        margin: 1rem 0;
+    }
+}

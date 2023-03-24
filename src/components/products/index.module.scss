@@ -1,0 +1,29 @@
+.productsContainer {
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 2rem;
+
+        .title {
+            font-size: 2.5rem;
+            font-family: "Signifier", sans-serif;
+        }
+
+        .description {
+            font-size: 1.5rem;
+
+            .linkContainer {
+                margin: 2rem 0;
+            }
+        }
+    }
+
+    .productsList {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}

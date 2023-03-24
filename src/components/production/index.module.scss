@@ -1,6 +1,7 @@
 .productionContainer {
     display: grid;
     grid-template-columns: 40% 60%;
+    grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
     // margin: 2rem;
 

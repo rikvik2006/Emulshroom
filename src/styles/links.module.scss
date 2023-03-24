@@ -1,0 +1,12 @@
+.link {
+    grid-column: 2 / 3;
+    font-size: 1.125rem;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+
+    &:hover {
+        text-decoration: underline #393939;
+
+    }
+}
