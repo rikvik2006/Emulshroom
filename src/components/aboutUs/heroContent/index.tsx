@@ -12,7 +12,7 @@ const HeroContent: FC<Props> = () => {
                     La natura li divide, noi li uniamo
                 </h1>
                 <div className={style.description}>
-                    <div className={style.text}>Ci dedichiamo costantemente alla ricerca e allo sviluppo di nuove soluzioni per la produzione di emulsionanti, con un focus particolare sulla sostenibilità e sulla riduzione dell'impatto ambientale.</div>
+                    <div className={style.text}>Ci dedichiamo costantemente alla ricerca e allo sviluppo di nuove soluzioni per la produzione di emulsionanti, con un focus particolare sulla sostenibilità e sulla riduzione dell&apos;impatto ambientale.</div>
                     <div className={style.buttonContainer}>
                         <div className={style.button}>Learn about Emulshroom</div>
                         <a href="#" className={style.link}>View our research</a>

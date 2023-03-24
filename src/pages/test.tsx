@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import Head from 'next/head'
 import style from "../styles/Home.module.scss"
-import NavbarContainer from '@components/components/navbar'
+import NavbarContainer from '@components/navbar'
 import { Montserrat } from "next/font/google"
 
 type Props = {}
