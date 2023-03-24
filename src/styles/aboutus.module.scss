@@ -1,6 +1,15 @@
+.container {
+    max-width: var(--container-width, 1872px);
+    margin: auto
+}
+
 .customBody {
     background-color: white;
     width: 100vw;
     height: 100;
     z-index: -2;
+}
+
+.mainContainer {
+    margin: 7rem 2rem;
 }

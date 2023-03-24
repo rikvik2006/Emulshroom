@@ -14,14 +14,17 @@ const HomePageTest: NextPage<Props> = () => {
     return (
         <>
             <HeroImage />
-            <div className={style.border}>
-                <MainContent />
-                <hr />
-                <ProductionContainer />
-                <hr />
-                <ProductsContainer />
-                <hr />
-                <Footer />
+
+            <div className={style.container}>
+                <div className={style.border}>
+                    <MainContent />
+                    <hr />
+                    <ProductionContainer />
+                    <hr />
+                    <ProductsContainer />
+                    <hr />
+                    <Footer />
+                </div>
             </div>
         </>
     )

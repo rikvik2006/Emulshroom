@@ -37,11 +37,24 @@ const AboutUs: NextPage<Props> = () => {
                             background: white;
                             color: black;
                         }
+
+                        ::selection {
+                            background: #0000ff;
+                            color: #FFF1D6;
+                        }
                 `}
             </style>
 
+
             <AboutUsNavbar />
             <HeroContent />
+            <div className={style.container}>
+                <div className={style.mainContainer}>
+                    <hr />
+
+                </div>
+            </div>
+
         </>
     )
 }
