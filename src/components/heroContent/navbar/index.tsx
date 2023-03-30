@@ -43,9 +43,9 @@ const NavbarContainer: FC<Props> = () => {
                     <img src="/img/logo.png" alt="Emulshoorm Logo" onClick={goToHome} />
                 </div>
 
-                <div className={style.item} onClick={goToAboutUs}>Research</div>
+                <div className={style.item} onClick={() => router.push("/")}>Research</div>
                 <div className={style.item}>Product</div>
-                <div className={style.item}>About us</div>
+                <div className={style.item} onClick={goToAboutUs}>About us</div>
                 <div className={style.item}>Company</div>
             </div>
             <div className={style.rightPart}>
