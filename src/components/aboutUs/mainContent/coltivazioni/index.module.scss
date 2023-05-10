@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    margin-bottom: 7rem;
+
+    .introductionContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        font-family: "Sohne", sans-serif;
+
+        h3 {
+            font-family: "Signifier", sans-serif;
+            font-size: 2rem;
+        }
+
+        .description {
+            font-size: 1.313rem;
+        }
+    }
+
+    .coltivazioniContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        column-gap: 1.875rem;
+
+        .imageContainer {
+            width: 100%;
+            height: 100%;
+            background-color: #0000ff;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            aspect-ratio: 1/1;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

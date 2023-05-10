@@ -1,17 +1,17 @@
 .container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    flex-direction: row;
     justify-content: space-between;
     font-family: "Sohne", sans-serif;
+    min-height: 20rem;
 
-    h1 {
-        font-size: 3.5rem;
+    h2 {
+        font-size: 3.781rem;
         font-weight: 300;
+        font-family: "Signifier", sans-serif;
     }
 
     .description {
-        font-size: 1.7rem;
-
+        font-size: 2rem;
     }
 }
