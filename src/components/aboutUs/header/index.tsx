@@ -26,12 +26,15 @@ const AboutUsNavbar: FC<Props> = () => {
     })
 
     const changeLogo = () => {
+        const fristChild: HTMLImageElement = document.querySelector('#headerImage:first-child') as HTMLImageElement;
+        const lastChild: HTMLImageElement = document.querySelector('#headerImage:last-child') as HTMLImageElement;
+
         if (window.scrollY >= 66) {
-            (document.querySelector('#headerImage:first-child') as HTMLImageElement).style.opacity = '0';
-            (document.querySelector('#headerImage:last-child') as HTMLImageElement).style.opacity = '1';
+            fristChild ? fristChild.style.opacity = '0' : null;
+            lastChild ? lastChild.style.opacity = '1' : null;
         } else {
-            (document.querySelector('#headerImage:first-child') as HTMLImageElement).style.opacity = '1';
-            (document.querySelector('#headerImage:last-child') as HTMLImageElement).style.opacity = '0';
+            fristChild ? fristChild.style.opacity = '1' : null;
+            lastChild ? lastChild.style.opacity = '0' : null;
         }
     }
 
