@@ -10,6 +10,7 @@ import logoWhite from "../../public/img/logo.png"
 import logoBlue from "../../public/img/LogoBlue.png"
 import logoBlack from "../../public/img/LogoBlack.png"
 import AboutUsNavbar from '@components/aboutUs/header';
+import MainContent from '@components/aboutUs/mainContent';
 
 type Props = {}
 
@@ -51,7 +52,7 @@ const AboutUs: NextPage<Props> = () => {
             <div className={style.container}>
                 <div className={style.mainContainer}>
                     <hr />
-
+                    <MainContent />
                 </div>
             </div>
 

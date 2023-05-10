@@ -13,6 +13,14 @@ type Props = {
 const HomePageTest: NextPage<Props> = () => {
     return (
         <>
+            <style jsx global>
+                {`
+                    ::selection {
+                        background: #ffffff;
+                        color: #000000;
+                    }
+                `}
+            </style>
             <HeroImage />
 
             <div className={style.container}>

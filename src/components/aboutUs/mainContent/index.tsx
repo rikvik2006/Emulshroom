@@ -1,11 +1,12 @@
 import { FC } from 'react'
+import ChiSiamo from './chiSiamo'
 
 type Props = {}
 
 
 const MainContent: FC<Props> = () => {
     return (
-        <div>MainContent</div>
+        <ChiSiamo />
     )
 }
 
