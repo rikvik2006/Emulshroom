@@ -1,11 +1,73 @@
 import { FC } from 'react'
 import style from "./index.module.scss"
+import procutCardStyle from "./product/product.module.scss"
 import linksStyle from "../../styles/links.module.scss"
 import ProductCardGenerator from './product'
 
 type Props = {}
 
 const products = [
+    {
+        name: "Portion 500g",
+        image: "/img/emulsionant.png",
+        link: "#"
+    },
+    {
+        name: "Portion 25kg",
+        image: "/img/emulsionat10k.png",
+        link: "#"
+    },
+    {
+        name: "Portion 500g",
+        image: "/img/emulsionant.png",
+        link: "#"
+    },
+    {
+        name: "Portion 25kg",
+        image: "/img/emulsionat10k.png",
+        link: "#"
+    },
+    {
+        name: "Portion 500g",
+        image: "/img/emulsionant.png",
+        link: "#"
+    },
+    {
+        name: "Portion 25kg",
+        image: "/img/emulsionat10k.png",
+        link: "#"
+    },
+    {
+        name: "Portion 500g",
+        image: "/img/emulsionant.png",
+        link: "#"
+    },
+    {
+        name: "Portion 25kg",
+        image: "/img/emulsionat10k.png",
+        link: "#"
+    },
+    // Doubled for infinite scroll
+    {
+        name: "Portion 500g",
+        image: "/img/emulsionant.png",
+        link: "#"
+    },
+    {
+        name: "Portion 25kg",
+        image: "/img/emulsionat10k.png",
+        link: "#"
+    },
+    {
+        name: "Portion 500g",
+        image: "/img/emulsionant.png",
+        link: "#"
+    },
+    {
+        name: "Portion 25kg",
+        image: "/img/emulsionat10k.png",
+        link: "#"
+    },
     {
         name: "Portion 500g",
         image: "/img/emulsionant.png",
