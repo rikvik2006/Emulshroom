@@ -14,7 +14,7 @@ type Props = {
 const ProductCard: FC<Props> = ({ product }) => {
     return (
         <div key={product.name} className={style.product}>
-            <div className={style.imageContainer}>
+            <div className={style.imageContainer} id="cardImage">
                 <img className={style.image} src={product.image} alt={product.name} />
             </div>
             <div className={style.productName}>{product.name}</div>

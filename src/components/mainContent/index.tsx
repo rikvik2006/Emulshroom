@@ -7,7 +7,7 @@ const MainContent: FC<Props> = () => {
     return (
         <div className={style.container}>
             <div className={style.gridContent}>
-                <div className={style.contentImage}>
+                <div className={style.contentImage} id="cardImage">
                     <img src="/img/emulsionant.png" alt="Emulsionant Product" />
                 </div>
                 <div className={style.descriptionContainer}>
@@ -31,7 +31,7 @@ const MainContent: FC<Props> = () => {
                         </p>
                     </div>
                 </div>
-                <div className={style.contentImage}>
+                <div className={style.contentImage} id="cardImage">
                     <img src="/img/emulsionat10k.png" alt="Emulsionant Product" />
                 </div>
             </div>

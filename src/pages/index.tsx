@@ -34,6 +34,30 @@ const HomePageTest: NextPage<Props> = () => {
                     <Footer />
                 </div>
             </div>
+
+            {/* Noise effect */}
+            <svg className={style.displayNone}>
+                <defs>
+                    <filter id="noise">
+                        <feTurbulence
+                            baseFrequency="0.7,0.8"
+                            seed="0"
+                            type="fractalNoise"
+                            result="static">
+
+                        </feTurbulence>
+                        <feDisplacementMap in="SourceGraphic" in2="static" scale="0">
+                            <animate
+                                attributeName="scale"
+                                values="0;40;0"
+                                dur="800ms"
+                                repeatCount="1"
+                                begin="cardImage.mouseenter"
+                            />
+                        </feDisplacementMap>
+                    </filter>
+                </defs>
+            </svg >
         </>
     )
 }

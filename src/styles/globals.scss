@@ -215,3 +215,23 @@ hr {
     opacity: 0;
   }
 }
+
+@keyframes pulse {
+
+  from,
+  to {
+    scale: 1
+  }
+
+  50% {
+    scale: 1.08
+  }
+}
+
+// #cardImage>img {
+//   filter: url(#noise);
+// }
+
+#cardImage:hover>img {
+  animation: pulse 800ms ease-in-out;
+}
