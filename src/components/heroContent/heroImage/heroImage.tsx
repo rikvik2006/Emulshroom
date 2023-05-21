@@ -10,7 +10,7 @@ const HeroImage: FC<Props> = () => {
         <div className={style.heroImageContainer}>
             <NavbarContainer />
 
-            <img className={style.heroImage} src="/img/heroimage.jpg" alt="Heroimage" />
+            <img className={style.heroImage} src="/img/heroImage2.jpg" alt="Heroimage" />
 
             <div className={style.heroTitleContainer}>
                 <h1 className={style.heroTitle}>
