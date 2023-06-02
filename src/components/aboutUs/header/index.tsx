@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import { FC, useEffect, useState } from 'react'
 import style from "./index.module.scss";
+import { motion } from 'framer-motion';
 
 type Props = {}
 
@@ -54,7 +55,14 @@ const AboutUsNavbar: FC<Props> = () => {
     }
 
     return (
-        <div className={[`${style.container}`, `${scrol ? style.scrolled : ""}`].join(" ")} id="navbar">
+        <motion.div
+            initial={{ y: 25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{
+                duration: 0.75,
+            }}
+            className={[`${style.container}`, `${scrol ? style.scrolled : ""}`].join(" ")}
+            id="navbar">
             <div className={style.leftPart}>
                 <div className={style.logoContainer}>
                     <img className={style.image} id="headerImage" src="/img/LogoBlue.png" alt="Emulshoorm Logo" onClick={goToHome} />
@@ -72,7 +80,7 @@ const AboutUsNavbar: FC<Props> = () => {
                 <div className={style.item}>IT</div>
             </div> */}
             </div>
-        </div >
+        </motion.div >
     )
 }
 

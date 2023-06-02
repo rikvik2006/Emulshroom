@@ -1,15 +1,24 @@
 import { FC } from 'react'
 import style from "./index.module.scss"
+import { motion } from 'framer-motion'
 
 type Props = {}
 
 
 const HeroContent: FC<Props> = () => {
     return (
-        <div className={style.heroContainer}>
+        <div
+            className={style.heroContainer}>
             <div className={style.container}>
 
-                <div className={style.heroDescription}>
+                <motion.div
+                    initial={{ y: 25, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{
+                        delay: 0.2,
+                        duration: 0.75,
+                    }}
+                    className={style.heroDescription}>
                     <h1 className={style.title}>
                         La natura li divide, noi li uniamo
                     </h1>
@@ -20,10 +29,17 @@ const HeroContent: FC<Props> = () => {
                             <a href="#" className={style.link}>View our research</a>
                         </div>
                     </div>
-                </div>
-                <div className={style.imageContainer}>
+                </motion.div>
+                <motion.div
+                    initial={{ y: 25, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{
+                        delay: 0.4,
+                        duration: 0.75,
+                    }}
+                    className={style.imageContainer}>
                     <img src="/img/aboutusBanner.png" alt="" />
-                </div>
+                </motion.div>
             </div>
         </div>
     )
