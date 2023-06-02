@@ -4,6 +4,7 @@ import { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { PageInfos } from "../../../types/hadersType";
+import { motion } from "framer-motion";
 
 type Props = {
 
@@ -37,7 +38,15 @@ const NavbarContainer: FC<Props> = () => {
     }
 
     return (
-        <div className={[`${style.container}`, `${scrol ? style.scrolled : ""}`].join(" ")} id="navbar">
+        <motion.div
+            initial={{ y: 25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{
+                delay: 0.2,
+                duration: 0.75,
+            }}
+            className={[`${style.container}`, `${scrol ? style.scrolled : ""}`].join(" ")}
+            id="navbar">
             <div className={style.leftPart}>
                 <div className={style.logoContainer}>
                     <img src="/img/logo.png" alt="Emulshoorm Logo" onClick={goToHome} />
@@ -54,7 +63,7 @@ const NavbarContainer: FC<Props> = () => {
                     <div className={style.item}>IT</div>
                 </div> */}
             </div>
-        </div >
+        </motion.div>
     )
 }
 
