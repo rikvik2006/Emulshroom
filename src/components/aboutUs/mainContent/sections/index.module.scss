@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-family: "Sohne", sans-serif;
+    min-height: 15rem;
+
+    h3 {
+        font-family: "Signifier", sans-serif;
+        font-size: 2rem;
+    }
+
+    .sectionDescription {
+        font-size: 1.313rem;
+    }
+
+    .outLinkPage {
+        // font-size: 1.313rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        // font-family: "Sohne", sans-serif;
+        font-family: "Signifier", sans-serif;
+        text-decoration: underline #000000;
+        text-underline-offset: 5px;
+    }
+
+
+    .descriptionContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .outLinkContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 0.4rem;
+        align-items: center;
+    }
+
+    .outLinkContainer:hover {
+        cursor: pointer;
+    }
+
+    .outLinkContainer:hover>.outLinkPage {
+        text-decoration: underline #00000055;
+    }
+
+    .arrowUpRight {
+        font-size: 1.9rem;
+        transform: translateY(2px);
+    }
+}
