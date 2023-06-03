@@ -16,10 +16,12 @@
         grid-template-columns: repeat(2, 50%);
         justify-content: space-between;
         align-items: center;
+        gap: 2rem;
 
         .title {
             color: blue;
             font-size: 4.563rem;
+            // font-size: 5.25rem;
             font-family: "Sohne", sans-serif;
             font-weight: 400;
         }
@@ -34,7 +36,8 @@
             margin: 12rem 0 7rem 0;
 
             .text {
-                font-size: 1.75rem;
+                // font-size: 1.75rem;
+                font-size: 2rem;
             }
 
             .buttonContainer {
@@ -67,7 +70,8 @@
             }
 
             .link:hover {
-                text-decoration: underline #393939;
+                // text-decoration: underline #393939;
+                text-decoration: underline #0000ff44;
                 text-decoration-thickness: 2px;
             }
         }

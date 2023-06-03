@@ -58,7 +58,8 @@
             }
 
             .link:hover {
-                text-decoration: underline rgba(0, 0, 0, 0.596);
+                // text-decoration: underline rgba(0, 0, 0, 0.596);
+                text-decoration: underline #eeeeee77;
                 text-decoration-thickness: 2px
             }
         }
