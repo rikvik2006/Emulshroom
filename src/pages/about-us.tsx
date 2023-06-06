@@ -11,6 +11,7 @@ import logoBlue from "../../public/img/LogoBlue.png"
 import logoBlack from "../../public/img/LogoBlack.png"
 import AboutUsNavbar from '@components/aboutUs/header';
 import MainContent from '@components/aboutUs/mainContent';
+import Footer from '@components/aboutUs/footer';
 
 type Props = {}
 
@@ -55,7 +56,7 @@ const AboutUs: NextPage<Props> = () => {
                     <MainContent />
                 </div>
             </div>
-
+            <Footer />
         </>
     )
 }
