@@ -7,3 +7,5 @@ window.addEventListener('beforeunload', function (event: BeforeUnloadEvent) {
         window.location.href = 'nuova-pagina.html';
     }, 200);
 });
+
+export { }
