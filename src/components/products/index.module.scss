@@ -2,14 +2,12 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    margin-bottom: 10rem;
+    padding: 3rem 7rem;
     overflow: hidden;
-
 
     .header {
         display: grid;
         grid-template-columns: 40% 60%;
-        gap: 2rem;
 
         .title {
             font-size: 2.5rem;
@@ -27,12 +25,16 @@
 
     .productsList {
         display: flex;
-        flex-direction: row;
         gap: 2rem;
         width: calc((20rem + 2rem) * 4);
         animation: scroll 30s linear infinite;
+        margin-bottom: 3rem;
+        
+        &:hover {
+            animation-play-state: paused;
+        }
     }
-
+    
     @keyframes scroll {
         0% {
             transform: translateX(0);
