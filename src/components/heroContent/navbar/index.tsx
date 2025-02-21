@@ -51,17 +51,12 @@ const NavbarContainer: FC<Props> = () => {
                 <div className={style.logoContainer}>
                     <img src="/img/logo.png" alt="Emulshoorm Logo" onClick={goToHome} />
                 </div>
-
-                <div className={style.item} onClick={() => router.push("/")}>Research</div>
-                <div className={style.item}>Product</div>
-                <div className={style.item} onClick={goToAboutUs}>About us</div>
-                <div className={style.item}>Company</div>
-            </div>
-            <div className={style.rightPart}>
-                {/* <div className={style.lenguageSwitch}>
-                    <div className={style.item}>EN</div>
-                    <div className={style.item}>IT</div>
-                </div> */}
+                <div className={style.menu}>
+                    <div className={style.item} onClick={() => router.push("/")}>Research</div>
+                    <div className={style.item}>Product</div>
+                    <div className={style.item} onClick={goToAboutUs}>About us</div>
+                    <div className={style.item}>Company</div>
+                </div>
             </div>
         </motion.div>
     )
