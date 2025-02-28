@@ -21,7 +21,7 @@ const MainContent: FC<Props> = () => {
                 <div className={style.descriptionContainer}>
                     <h3 className={style.titleDescription}>Emushroom for
                         Business</h3>
-                    <div className={[style.descriptionText, style.right].join(" ")}>
+                    <div className={style.descriptionText}>
                         <p>
                             Welcome to the world of emulsifiers, where oil and water can finally put their differences aside and create something amazing together.
                         </p>

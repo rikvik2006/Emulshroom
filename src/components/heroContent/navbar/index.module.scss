@@ -1,5 +1,3 @@
-// Create a fiexed navbar with a trasparent background color when is not scrolled and a black background color when is scrolled
-
 .container {
     position: fixed;
     top: 0;
@@ -14,7 +12,7 @@
     align-items: center;
     flex-direction: row;
     height: 5rem;
-    padding: 0 2rem;
+    padding: 0 5rem;
 
     &.scrolled {
         background-color: black;
@@ -24,15 +22,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: row;
-        width: 55%;
+        width: 100%;
         height: 100%;
 
         .logoContainer {
             width: 9rem;
             height: 100%;
             margin-right: 5rem;
-            display: flex;
             align-items: center;
 
             img {
@@ -43,57 +39,23 @@
             }
         }
 
-        .item {
-            font-family: "Sohne", sans-serif;
-            font-size: 1.125rem;
-            line-height: 1.125rem;
-            cursor: pointer;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-
+        
         .menu {
             display: flex;
             justify-content: space-between;
-            align-item: center;
+            align-items: center;
             flex-direction: row;
-            width: 50%;
-            height: 100%;
+            width: 32%;
 
-            .menuItem {
-                width: 100%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                font-size: 1.5rem;
-
-                color: white;
-                text-decoration: none;
-                transition: color 0.5s ease-in-out;
-
+            .item {
+                font-family: "Sohne", sans-serif;
+                font-size: 1.125rem;
+                line-height: 1.125rem;
+                cursor: pointer;
+    
                 &:hover {
-                    color: #ff0000;
+                    text-decoration: underline;
                 }
-            }
-        }
-    }
-
-    .rightPart {
-        .lenguageSwitch {
-            padding: 0.2rem;
-            background-color: #111111;
-            display: flex;
-            justify-content: center;
-            gap: 0.5rem;
-
-            &::after {
-                position: absolute;
-                content: "";
-                background: red($color: #000000)
             }
         }
     }

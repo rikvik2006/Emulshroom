@@ -1,8 +1,7 @@
-import { FC } from 'react'
+import { FC } from "react";
 import style from "./index.module.scss";
 
-type Props = {}
-
+type Props = {};
 
 const Coltivazioni: FC<Props> = () => {
     return (
@@ -10,22 +9,24 @@ const Coltivazioni: FC<Props> = () => {
             <div className={style.introductionContainer}>
                 <h3>Coltivazioni</h3>
                 <div className={style.description}>
-                    Il nostro fungo (rhizopus oligosporus) viene coltivato su un substrato di riso lavorato, che garantisce la maggiore produzione di inoculo.
+                    Il nostro fungo (rhizopus oligosporus) viene coltivato su un
+                    substrato di riso lavorato, che garantisce la maggiore
+                    produzione di inoculo.
                 </div>
             </div>
             <div className={style.coltivazioniContainer}>
                 <div className={style.imageContainer}>
-                    <img src="/img/emulsionant.png" alt="" />
+                    <img src="/img/emulsionantBackground.png" alt="" />
                 </div>
                 <div className={style.imageContainer}>
-                    <img src="/img/emulsionant.png" alt="" />
+                    <img src="/img/emulsionantBackground.png" alt="" />
                 </div>
                 <div className={style.imageContainer}>
-                    <img src="/img/emulsionant.png" alt="" />
+                    <img src="/img/emulsionantBackground.png" alt="" />
                 </div>
             </div>
-        </div >
-    )
-}
+        </div>
+    );
+};
 
-export default Coltivazioni
+export default Coltivazioni;
